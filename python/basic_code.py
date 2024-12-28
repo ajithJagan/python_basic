@@ -1,7 +1,7 @@
-# import keyword
+import keyword
 
-# print(keyword.kwlist)
-# print("Enter your name ")
+print(keyword.kwlist)
+print("Enter your name ")
 name = input("Enter your name ")
 print("Your name is = ",name)
 
