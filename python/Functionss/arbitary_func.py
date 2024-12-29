@@ -3,10 +3,10 @@
 
 def name(*args):
     print(args)
-    print(type(args))
+    # print(type(args))
     for i in args:
-        print(i)
-        print(type(i))
+        print(i ,end=" ")
+        # print(type(i))
 
 name(1,2,3,4,5,6,7,8,9,10)
 
@@ -15,9 +15,9 @@ name(1,2,3,4,5,6,7,8,9,10)
 
 def name(**kwargs):
     print(kwargs)
-    print(type(kwargs))
-    for i in kwargs:
-        print(i)
-        print(type(i))
+    # print(type(kwargs))
+    for i in kwargs.items():
+        print(i ,end=" ")
+        # print(type(i))
 
 name(name="ajith",age=34)

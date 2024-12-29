@@ -8,7 +8,7 @@
 j =1
 while j <=10 :
    
-    if j==5 :
+    if j==1 :
         j +=1
         continue
     print(j)
