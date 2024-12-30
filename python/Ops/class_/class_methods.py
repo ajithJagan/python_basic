@@ -13,4 +13,3 @@ Car.view_car()  # this is the way to call the class method using class
 
 # o.view_car()  # this is the way to call the class method using object , but we can't call the class method using object ,why because it is not a instance method
 
- 
